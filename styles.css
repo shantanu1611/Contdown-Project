@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Mukta", sans-serif;
+    background-color: #86AB89;
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.heading{
+    display: flex;
+    gap: 20px;
+    font-size: 5rem;
+}
+
+.countdown{
+    margin-top: 1em;
+    display: flex;
+}
+
+.countdown div{
+    margin-left: .5rem;
+    border: 2px solid red;
+    background-color: white;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
